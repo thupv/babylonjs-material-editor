@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Material editor</title>
+    <style>
+        body {
+            margin:0;
+            font-size: 15px;
+            line-height: 18px;
+            overflow: hidden;
+            background: #354662;
+        }
+        canvas { width: 80%; height: 100% }
+        #newWindow {
+            display: block;
+            position: absolute;
+            bottom: 0.3em;
+            left: 0.5em;
+            color: #fff;
+        }
+    </style>
+    <script src="vendor/three.min.js"></script>
+    <script src='vendor/dat.gui.min.js'></script>
+    <script src='vendor/OrbitControls.js'></script>
+    <script src="material.js"></script>
+    <script src="tools.js"></script>
+</head>
+<body>
+    <input type="file" accept="image/*" id="newTexture" style="display:none">
+</body>
+</html>
