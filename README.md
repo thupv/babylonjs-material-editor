@@ -1,1 +1,1 @@
-# cubego-material-editor
+# babylonjs-material-editor
